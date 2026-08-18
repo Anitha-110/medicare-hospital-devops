@@ -38,7 +38,7 @@ resource "aws_db_instance" "hospital_db" {
   # Database credentials
   db_name  = "hospitaldb"
   username = "admin"
-  password = "HospitalDB2026!"
+  password = "******"
 
   # MySQL port
   port = 3306
