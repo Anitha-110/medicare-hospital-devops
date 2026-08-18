@@ -15,7 +15,6 @@
 * Screenshots
 * Cleanup/destroy commands
 
-You **do not need to put every terminal command/comment into README**. Keep it professional and explain the important workflow.
 
 Here is a complete README you can use:
 
