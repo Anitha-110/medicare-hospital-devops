@@ -1,0 +1,24 @@
+# AWS keys
+*.pem
+*.key
+.aws/
+
+# Terraform state
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variables/secrets
+*.tfvars
+*.tfvars.json
+
+# Ansible
+*.retry
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env

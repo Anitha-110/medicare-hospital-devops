@@ -1,0 +1,25 @@
+-----------------------------------------
+|        DescribeDBSubnetGroups         |
++---------------------------------------+
+|  [1m[34maishu-subnet group[0m                   |
+|  [1m[34mandrew_subnet[0m                        |
+|  [1m[34mani-db-subnet-group[0m                  |
+|  [1m[34manz-rds-sub[0m                          |
+|  [1m[34mdatabase-subnet-group-1b-1c[0m          |
+|  [1m[34mdb-sg[0m                                |
+|  [1m[34mdb-sg11111[0m                           |
+|  [1m[34mdefault[0m                              |
+|  [1m[34mdefault-dbgroup[0m                      |
+|  [1m[34mdefault-vpc-04168a845315f351d[0m        |
+|  [1m[34mdefault-vpc-08a9e9234e1f145ab[0m        |
+|  [1m[34mdefault-vpc-0bb74087a5bbce2b5[0m        |
+|  [1m[34mdefault-vpc-0ddac8bf574332fa7[0m        |
+|  [1m[34mdefault-vpc-0f1206aea5fca3d97[0m        |
+|  [1m[34mdns-subnetgroup[0m                      |
+|  [1m[34mdns-subnetgroup-1[0m                    |
+|  [1m[34memployee-management-db-subnet-group[0m  |
+|  [1m[34mhospital-db-subnet[0m                   |
+|  [1m[34mmain-db-subnet-group[0m                 |
+|  [1m[34mrds-ec2-db-subnet-group-1[0m            |
+|  [1m[34msubneet[0m                              |
++---------------------------------------+

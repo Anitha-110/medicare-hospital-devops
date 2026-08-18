@@ -1,0 +1,67 @@
+---
+- name: Configure Hospital Appointment Web Server
+  hosts: web
+  become: yes
+
+  tasks:
+
+    - name: Update apt packages
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+
+    - name: Install required packages
+      apt:
+        name:
+          - git
+          - python3
+          - python3-pip
+          - python3-venv
+        state: present
+
+    - name: Display installation completion
+      debug:
+        msg: "Required packages installed successfully"
+
+    - name: Clone hospital appointment application
+      git:
+        repo: "https://github.com/Anitha-110/medicare-hospital-devops.git"
+        dest: /home/ubuntu/hospital-app
+        version: main
+    - name: Create Python virtual environment
+      command:
+        cmd: python3 -m venv /home/ubuntu/hospital-app/venv
+        creates: /home/ubuntu/hospital-app/venv/bin/activate
+
+    - name: Install Python dependencies
+      pip:
+        requirements: /home/ubuntu/hospital-app/application/requirements.txt
+        virtualenv: /home/ubuntu/hospital-app/venv
+    - name: Create systemd service for hospital application
+      copy:
+        dest: /etc/systemd/system/hospital-app.service
+        content: |
+          [Unit]
+          Description=Hospital Appointment Flask Application
+          After=network.target
+
+          [Service]
+          User=ubuntu
+          WorkingDirectory=/home/ubuntu/hospital-app/application
+          Environment="PATH=/home/ubuntu/hospital-app/venv/bin"
+          ExecStart=/home/ubuntu/hospital-app/venv/bin/python /home/ubuntu/hospital-app/application/app.py
+          Restart=always
+          RestartSec=5
+
+          [Install]
+          WantedBy=multi-user.target
+
+    - name: Reload systemd
+      systemd:
+        daemon_reload: yes
+
+    - name: Start hospital application
+      systemd:
+        name: hospital-app
+        state: started
+        enabled: yes
