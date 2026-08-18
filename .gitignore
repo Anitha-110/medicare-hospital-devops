@@ -3,16 +3,14 @@
 *.key
 .aws/
 
-# Terraform state
+# Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
-crash.log
-crash.*.log
-
-# Terraform variables/secrets
 *.tfvars
 *.tfvars.json
+crash.log
+crash.*.log
 
 # Ansible
 *.retry
