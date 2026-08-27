@@ -928,13 +928,25 @@ Hospital Appointment System
 
 # 📸 Screenshots
 
-<img width="1365" height="603" alt="p3" src="https://github.com/user-attachments/assets/7c3201b8-1536-4238-a0e7-eba2b30fac31" />
-<img width="1365" height="608" alt="p4" src="https://github.com/user-attachments/assets/49ca1850-d190-4182-a0f8-4453da4cb0ca" />
-<img width="1366" height="608" alt="p5" src="https://github.com/user-attachments/assets/3e3d0ce3-f08d-4b0f-87ea-f9307ffca06e" />
-<img width="855" height="524" alt="p6" src="https://github.com/user-attachments/assets/a4adab14-980f-4a32-9b2c-fb64db986f11" />
-<img width="1366" height="568" alt="p11" src="https://github.com/user-attachments/assets/8964c8d2-c4fb-454a-b153-7f67b3a6080f" />
-<img width="1361" height="611" alt="p12" src="https://github.com/user-attachments/assets/0d88dd78-8d47-4ff9-9fa4-0bf638ae74c6" />
-<img width="1356" height="653" alt="p13" src="https://github.com/user-attachments/assets/34d6f4cb-a5f3-4f48-a68b-c4078f73e5a4" />
+<img width="513" height="44" alt="image" src="https://github.com/user-attachments/assets/7cb7ce9c-f1a0-4f7b-939a-fd7b9d3727dd" />
+
+
+<img width="494" height="67" alt="image" src="https://github.com/user-attachments/assets/206eba90-1820-43b7-b980-49c958e44031" />
+
+
+<img width="518" height="219" alt="image" src="https://github.com/user-attachments/assets/f7b18d4e-0539-44df-99b6-85b7c2000e07" />
+
+<img width="624" height="303" alt="image" src="https://github.com/user-attachments/assets/2a7d14b4-9827-4a8a-bf83-3a55692c1508" />
+
+<img width="668" height="216" alt="image" src="https://github.com/user-attachments/assets/bc31e694-6561-4192-8791-f48fb5da211b" />
+
+<img width="662" height="299" alt="image" src="https://github.com/user-attachments/assets/1d09fe75-9920-422e-b3c2-65c5a4dbd56d" />
+
+<img width="663" height="317" alt="image" src="https://github.com/user-attachments/assets/8eb863af-d417-4113-a0f9-7324b05e975a" />
+
+
+
+
 
 
 Recommended screenshots:
