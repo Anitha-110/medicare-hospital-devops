@@ -39,7 +39,8 @@ The project uses:
 <img width="1346" height="564" alt="p4_051535~2" src="https://github.com/user-attachments/assets/cb9ea38b-c60d-45e2-9d74-ed5e62e7daf5" />
 
 
-<img width="1069" height="114" alt="p3_051532~2" src="https://github.com/user-attachments/assets/654b79fb-2835-477e-a6e6-283e536fd05a" />
+<img width="1041" height="145" alt="IMG-20260724-WA0066~2" src="https://github.com/user-attachments/assets/bf2c0a12-f84c-419d-80ab-5a9336e0b461" />
+
 
 
 The main objective is to create a secure and highly available AWS architecture and automate infrastructure provisioning and server configuration.
